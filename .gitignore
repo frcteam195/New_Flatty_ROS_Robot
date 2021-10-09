@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+catkin_ws/build/*
+catkin_ws/devel/*
+.*
