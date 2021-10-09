@@ -1,2 +1,3 @@
 git@github.com:frcteam195/CKROSlibzmq.git
 git@github.com:frcteam195/CKROSprotobuf.git
+git@github.com:frcteam195/ROSProtoDef2022.git
