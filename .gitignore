@@ -34,4 +34,5 @@
 catkin_ws/build
 catkin_ws/devel
 .*
+!.githold
 catkin_ws/src
