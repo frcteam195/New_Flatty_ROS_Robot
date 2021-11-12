@@ -1,2 +1,4 @@
 git@github.com:frcteam195/rio_control_node.git
 git@github.com:frcteam195/drivetrain_node.git
+git@github.com:frcteam195/data_streamer_node.git
+git@github.com:frcteam195/test_data_node
