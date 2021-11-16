@@ -7,3 +7,5 @@ git@github.com:frcteam195/ROSProtoDef2022.git
 git@github.com:frcteam195/ros_includes.git
 git@github.com:frcteam195/CKimgui.git
 git@github.com:frcteam195/CKimplot.git
+git@github.com:frcteam195/CKfmt.git
+git@github.com:frcteam195/CKso_5.git
