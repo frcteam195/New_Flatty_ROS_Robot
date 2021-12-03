@@ -3,4 +3,4 @@ git@github.com:frcteam195/drivetrain_node.git
 git@github.com:frcteam195/data_streamer_node.git
 git@github.com:frcteam195/robot_localization_node.git
 git@github.com:frcteam195/unique_identifier_node.git
-git@github.com:frcteam195/geographic_msgs.git
+git@github.com:frcteam195/geographic_msgs_node.git
