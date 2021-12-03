@@ -3,6 +3,7 @@
 git@github.com:frcteam195/CKROSlibgoogletest.git
 git@github.com:frcteam195/CKROSlibzmq.git
 git@github.com:frcteam195/CKROSprotobuf.git
+git@github.com:frcteam195/CKROSlibgeographic.git
 git@github.com:frcteam195/ROSProtoDef2022.git
 git@github.com:frcteam195/ros_includes.git
 git@github.com:frcteam195/CKimgui.git
