@@ -11,3 +11,4 @@ git@github.com:frcteam195/teb_local_planner_node.git
 git@github.com:frcteam195/geometry2_node.git
 git@github.com:frcteam195/move_base_flex_node.git
 git@github.com:frcteam195/navigation_msgs_node.git
+git@github.com:frcteam195/ck_utilities_node.git
