@@ -1,12 +1,6 @@
 # List of third party projects to clone.
 # Order in this file determine compilation order.
-git@github.com:frcteam195/CKROSlibgoogletest.git
-git@github.com:frcteam195/CKROSlibzmq.git
-git@github.com:frcteam195/CKROSprotobuf.git
-git@github.com:frcteam195/CKROSlibgeographic.git
 git@github.com:frcteam195/ROSProtoDef2022.git
 git@github.com:frcteam195/ros_includes.git
 git@github.com:frcteam195/CKimgui.git
 git@github.com:frcteam195/CKimplot.git
-git@github.com:frcteam195/CKfmt.git
-git@github.com:frcteam195/CKso_5.git
