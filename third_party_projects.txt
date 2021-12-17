@@ -2,5 +2,3 @@
 # Order in this file determine compilation order.
 git@github.com:frcteam195/ROSProtoDef2022.git
 git@github.com:frcteam195/ros_includes.git
-git@github.com:frcteam195/CKimgui.git
-git@github.com:frcteam195/CKimplot.git
