@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="rio_control_node" pkg="rio_control_node" type="rio_control_node" />
+
+</launch>
