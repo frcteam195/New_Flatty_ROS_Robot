@@ -47,6 +47,7 @@
 	args="$(arg command_arg1) $(arg command_arg2) $(arg command_arg3) -e $(arg physics) $(arg extra_gazebo_args) $(arg world_name)"
   required="$(arg server_required)">
 	    <remap from="/odom" to="/gazebo_odom" />
+	    <remap from="/tf" to="/gazebo_tf" />
     </node>
 
   <!-- start gazebo client -->
