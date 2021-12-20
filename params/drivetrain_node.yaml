@@ -1,12 +1,16 @@
 left_master_id: 1
 left_slave_ids: [2, 3]
 left_sensor_inverted: false
+left_master_inverted: false
 left_slave_inverted: [false, false]
 
 right_master_id: 4
 right_slave_ids: [5, 6]
 right_sensor_inverted: false
+right_master_inverted: true
 right_slave_inverted: [false, false]
+
+motor_type: 0    #0 = TalonFX, 1 = TalonSRX
 
 brake_mode_default: false
 
