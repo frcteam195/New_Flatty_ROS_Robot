@@ -3,7 +3,7 @@ left_slave_ids: [2, 3]
 left_sensor_inverted: false
 left_slave_inverted: [false, false]
 
-right master_id: 4
+right_master_id: 4
 right_slave_ids: [5, 6]
 right_sensor_inverted: false
 right_slave_inverted: [false, false]
