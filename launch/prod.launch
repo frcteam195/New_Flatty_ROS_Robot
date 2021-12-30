@@ -1,6 +1,8 @@
 <launch>
-  <node name="rio_control_node" pkg="rio_control_node" type="rio_control_node" />
-  <node name="drivetrain_node" pkg="drivetrain_node" type="drivetrain_node" output="screen" clear_params="true"/>
+  <node name="rio_control_node" pkg="rio_control_node" type="rio_control_node" output="screen" clear_params="true">
+    <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/rio_control_node.yaml" />    
+  </node>
+  <node name="drivetrain_node" pkg="drivetrain_node" type="drivetrain_node" output="screen" clear_params="true">
     <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/drivetrain_node.yaml" />
   </node>
   <node pkg="tf" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map 100" />
