@@ -1,0 +1,129 @@
+gear_ratio_to_output_shaft: [
+  # Motor 1
+  10.0,
+  # Motor 2
+  1.0,
+  # Motor 3
+  1.0,
+  # Motor 4
+  10.0,
+  # Motor 5
+  1.0,
+  # Motor 6
+  1.0,
+  # Motor 7
+  1.0,
+  # Motor 8
+  1.0,
+  # Motor 9
+  1.0,
+  # Motor 10
+  1.0,
+  # Motor 11
+  1.0,
+  # Motor 12
+  1.0,
+  # Motor 13
+  1.0,
+  # Motor 14
+  1.0,
+  # Motor 15
+  1.0,
+  # Motor 16
+  1.0,
+  # Motor 17
+  1.0,
+  # Motor 18
+  1.0,
+  # Motor 19
+  1.0,
+  # Motor 20
+  1.0,
+]
+
+motor_ticks_per_revolution: [
+  # Motor 1
+  2048.0,
+  # Motor 2
+  2048.0,
+  # Motor 3
+  2048.0,
+  # Motor 4
+  2048.0,
+  # Motor 5
+  2048.0,
+  # Motor 6
+  2048.0,
+  # Motor 7
+  2048.0,
+  # Motor 8
+  2048.0,
+  # Motor 9
+  2048.0,
+  # Motor 10
+  2048.0,
+  # Motor 11
+  2048.0,
+  # Motor 12
+  2048.0,
+  # Motor 13
+  2048.0,
+  # Motor 14
+  2048.0,
+  # Motor 15
+  2048.0,
+  # Motor 16
+  2048.0,
+  # Motor 17
+  2048.0,
+  # Motor 18
+  2048.0,
+  # Motor 19
+  2048.0,
+  # Motor 20
+  2048.0,
+]
+
+# This is in seconds
+motor_ticks_velocity_sample_window: [
+  # Motor 1
+  0.1,
+  # Motor 2
+  0.1,
+  # Motor 3
+  0.1,
+  # Motor 4
+  0.1,
+  # Motor 5
+  0.1,
+  # Motor 6
+  0.1,
+  # Motor 7
+  0.1,
+  # Motor 8
+  0.1,
+  # Motor 9
+  0.1,
+  # Motor 10
+  0.1,
+  # Motor 11
+  0.1,
+  # Motor 12
+  0.1,
+  # Motor 13
+  0.1,
+  # Motor 14
+  0.1,
+  # Motor 15
+  0.1,
+  # Motor 16
+  0.1,
+  # Motor 17
+  0.1,
+  # Motor 18
+  0.1,
+  # Motor 19
+  0.1,
+  # Motor 20
+  0.1,
+]
