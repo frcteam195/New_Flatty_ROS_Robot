@@ -11,6 +11,8 @@ right_master_inverted: true
 right_follower_inverted: []   #Normally right_follower_inverted: [false, false]
 
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX
+voltage_comp_saturation: 12.0   #Saturation voltage
+voltage_comp_enabled: true    #Voltage compensation enabled
 
 brake_mode_default: false
 
