@@ -22,7 +22,7 @@ acc_lim_theta: 1
 min_turning_radius: 0.0
 footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
   type: "circular"
-  radius: 0.905 # for type "circular"
+  radius: 0.1905 # for type "circular"
   line_start: [-0.3, 0.0] # for type "line"
   line_end: [0.3, 0.0] # for type "line"
   front_offset: 0.2 # for type "two_circles"
