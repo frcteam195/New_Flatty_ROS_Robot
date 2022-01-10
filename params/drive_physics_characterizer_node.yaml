@@ -1,0 +1,4 @@
+left_master_id: 1
+right_master_id: 4
+motor_type: 0    #0 = TalonFX, 1 = TalonSRX
+
