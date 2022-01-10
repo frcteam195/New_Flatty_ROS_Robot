@@ -71,7 +71,11 @@ alternative_time_cost: False # not in use yet
 enable_homotopy_class_planning: True
 enable_multithreading: True
 simple_exploration: False
-max_number_classes: 4
+max_number_classes: 6
+max_number_plans_in_current_class: 3
+selection_cost_hysteresis: 0.05
+selection_prefer_initial_plan: 0
+selection_dropping_probability: 0.3
 roadmap_graph_no_samples: 15
 roadmap_graph_area_width: 5
 h_signature_prescaler: 0.5
