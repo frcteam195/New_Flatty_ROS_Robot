@@ -5,3 +5,4 @@ git@github.com:frcteam195/gazebo_rio_control_node.git
 git@github.com:frcteam195/local_planner_node.git
 git@github.com:frcteam195/action_processor_node.git
 git@github.com:frcteam195/ck_gazebo_sim.git
+git@github.com:frcteam195/motor_tuning_node.git
