@@ -12,4 +12,6 @@
   <node name="local_planner_node" pkg="local_planner_node" type="local_planner_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/teb_local_planner.yaml" />
   </node>
+  <node name="action_processor_node" pkg="action_processor_node" type="action_processor_node" clear_params="true" output="screen">
+  </node>
 </launch>
