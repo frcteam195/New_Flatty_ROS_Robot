@@ -6,3 +6,7 @@ git@github.com:frcteam195/local_planner_node.git
 git@github.com:frcteam195/action_processor_node.git
 git@github.com:frcteam195/ck_gazebo_sim.git
 git@github.com:frcteam195/motor_tuning_node.git
+git@github.com:frcteam195/test_data_node.git
+git@github.com:frcteam195/lib_uuid_node.git
+git@github.com:frcteam195/hmi_agent_node.git
+
