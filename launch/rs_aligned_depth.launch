@@ -71,7 +71,7 @@
       <arg name="accel_fps"                value="$(arg accel_fps)"/>
       <arg name="enable_gyro"              value="$(arg enable_gyro)"/>
       <arg name="enable_accel"             value="$(arg enable_accel)"/>
-      <arg name="initial_reset"            value="true"/>
+      <arg name="initial_reset"            value="false"/>
       <arg name="reconnect_timeout"        value="5"/>
 
       <arg name="filters"                  value="$(arg filters)"/>
