@@ -24,5 +24,7 @@
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen">
   </node>
 
+  <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen">
+  </node>
 
 </launch>
