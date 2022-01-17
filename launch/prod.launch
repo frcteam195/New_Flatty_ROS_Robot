@@ -39,4 +39,8 @@
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen">
   </node>
 
+
+  <node name="turret_control_node" pkg="turret_control_node" type="turret_control_node" clear_params="true" output="screen">
+  </node>
+
 </launch>

@@ -10,3 +10,4 @@ git@github.com:frcteam195/test_data_node.git
 git@github.com:frcteam195/lib_uuid_node.git
 git@github.com:frcteam195/hmi_agent_node.git
 git@github.com:frcteam195/autonomous_node.git
+git@github.com:frcteam195/turret_control_node.git
