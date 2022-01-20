@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI Build Status
+name: x86 Build Status
 
 # Controls when the workflow will run
 on:
