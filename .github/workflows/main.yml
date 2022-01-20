@@ -41,6 +41,7 @@ jobs:
           sed -i "s/git@github.com:/https:\/\/github.com\//g" ros_projects.txt
           sed -i "s/git@github.com:/https:\/\/github.com\//g" third_party_projects.txt
           cd ..
+          source /opt/ros/melodic/setup.bash
           ./ros_dev/mkrobot.sh clone
           ./ros_dev/mkrobot.sh build
         shell: bash
