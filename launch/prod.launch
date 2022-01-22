@@ -34,6 +34,9 @@
   <node name="turret_control_node" pkg="turret_control_node" type="turret_control_node" clear_params="true" output="screen">
   </node>
 
+  <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen">
+  </node>
+
 <?ignore
   <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rtabmap.launch">
     <arg name="rtabmap_args" value="--delete_db_on_start"/>
