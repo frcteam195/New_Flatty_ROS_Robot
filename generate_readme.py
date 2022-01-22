@@ -30,7 +30,7 @@ with open('README.md', 'w') as f:
         line = line.replace('git@github.com:', 'https://github.com/')
         line = line.replace('\n', '')
         line = line.replace('\r', '')
-        f.write(f'[{node_name}]({line})\n') 
+        f.write(f'[{node_name}]({line})\n\n') 
 
     f.write('\n\n---\n\n')
 
@@ -43,5 +43,5 @@ with open('README.md', 'w') as f:
         line = line.replace('git@github.com:', 'https://github.com/')
         line = line.replace('\n', '')
         line = line.replace('\r', '')
-        f.write(f'[{node_name}]({line})\n') 
+        f.write(f'[{node_name}]({line})\n\n') 
 
