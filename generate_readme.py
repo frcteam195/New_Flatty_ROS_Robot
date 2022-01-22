@@ -17,11 +17,11 @@ with open('third_party_projects.txt', 'r') as f:
 
 with open('README.md', 'w') as f:
     f.write(f'# {scriptParentDirName}\n')
-    f.write(f'[![x86 Build Status](https://github.com/frcteam195/{scriptParentDirName}/actions/workflows/main.yml/badge.svg)](https://github.com/frcteam195/{scriptParentDirName}/actions/workflows/main.yml)\n')
+    f.write(f'[![x86 Build Status](https://github.com/frcteam195/{scriptParentDirName}/actions/workflows/main.yml/badge.svg)](https://github.com/frcteam195/{scriptParentDirName}/actions/workflows/main.yml)\n\n')
     f.write(f'{descriptionText}\n\n')
     f.write('\n---\n\n')
 
-    f.write('### Robot Nodes\n')
+    f.write('### Robot Nodes\n\n')
     for line in sorted(robotProjects):
         if '#' in line:
             continue
@@ -34,7 +34,7 @@ with open('README.md', 'w') as f:
 
     f.write('\n\n---\n\n')
 
-    f.write('### Third Party Projects\n')
+    f.write('### Third Party Projects\n\n')
     for line in sorted(thirdPartyProjects):
         if '#' in line:
             continue

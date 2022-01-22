@@ -1,11 +1,13 @@
 # 2022_Flatty_Ros_Robot
 [![x86 Build Status](https://github.com/frcteam195/2022_Flatty_Ros_Robot/actions/workflows/main.yml/badge.svg)](https://github.com/frcteam195/2022_Flatty_Ros_Robot/actions/workflows/main.yml)
+
 This is the main robot project. All nodes used in the robot should be defined in ros_projects.txt and all libraries should be defined in third_party_projects.txt
 
 
 ---
 
 ### Robot Nodes
+
 [action_processor_node](https://github.com/frcteam195/action_processor_node.git)
 
 [autonomous_node](https://github.com/frcteam195/autonomous_node.git)
@@ -41,6 +43,7 @@ This is the main robot project. All nodes used in the robot should be defined in
 ---
 
 ### Third Party Projects
+
 [ROSProtoDef2022](https://github.com/frcteam195/ROSProtoDef2022.git)
 
 [ros_includes](https://github.com/frcteam195/ros_includes.git)
