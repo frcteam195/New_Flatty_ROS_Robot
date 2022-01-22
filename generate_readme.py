@@ -16,10 +16,10 @@ with open('third_party_projects.txt', 'r') as f:
     thirdPartyProjects = f.readlines()
 
 with open('README.md', 'w') as f:
-    f.write(f'#{scriptParentDirName}\n')
+    f.write(f'# {scriptParentDirName}\n')
     f.write(f'[![x86 Build Status](https://github.com/frcteam195/{scriptParentDirName}/actions/workflows/main.yml/badge.svg)](https://github.com/frcteam195/{scriptParentDirName}/actions/workflows/main.yml)\n')
-    f.write('\n---\n\n')
     f.write(f'{descriptionText}\n\n')
+    f.write('\n---\n\n')
 
     f.write('### Robot Nodes\n')
     for line in sorted(robotProjects):
