@@ -7,7 +7,7 @@
   <node name="drivetrain_node" pkg="drivetrain_node" type="drivetrain_node" output="screen" clear_params="true">
     <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/drivetrain_node.yaml" />
   </node>
-  <!--- <node pkg="tf" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map 100" /> -->
+  - <node pkg="tf" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map 100" />
   <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/robot_localization_ukf.yaml" />
   </node>
@@ -21,17 +21,6 @@
 
   <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rs_aligned_depth.launch">
   </include>
-
-  <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rtabmap.launch">
-    <arg name="rtabmap_args" value="--delete_db_on_start"/>
-    <arg name="depth_topic" value="/camera/aligned_depth_to_color/image_raw"/>
-    <arg name="rgb_topic" value="/camera/color/image_raw"/>
-    <arg name="camera_info_topic" value="/camera/color/camera_info"/>
-    <arg name="approx_sync" value="true"/>
-    <arg name="visual_odometry" value="false"/>
-    <arg name="odom_topic" value="/odometry/filtered"/>
-    <arg name="queue_size" value="100"/>
-  </include>
   
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen">
   </node>
@@ -44,5 +33,18 @@
 
   <node name="turret_control_node" pkg="turret_control_node" type="turret_control_node" clear_params="true" output="screen">
   </node>
+
+<?ignore
+  <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rtabmap.launch">
+    <arg name="rtabmap_args" value="--delete_db_on_start"/>
+    <arg name="depth_topic" value="/camera/aligned_depth_to_color/image_raw"/>
+    <arg name="rgb_topic" value="/camera/color/image_raw"/>
+    <arg name="camera_info_topic" value="/camera/color/camera_info"/>
+    <arg name="approx_sync" value="true"/>
+    <arg name="visual_odometry" value="false"/>
+    <arg name="odom_topic" value="/odometry/filtered"/>
+    <arg name="queue_size" value="100"/>
+  </include>
+?>
 
 </launch>
