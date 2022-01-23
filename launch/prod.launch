@@ -19,9 +19,6 @@
   <node name="action_processor_node" pkg="action_processor_node" type="action_processor_node" clear_params="true" output="screen">
   </node>
 
-  <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rs_aligned_depth.launch">
-  </include>
-  
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen">
   </node>
 
@@ -36,6 +33,11 @@
 
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen">
   </node>
+
+<?ignore
+  <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rs_aligned_depth.launch">
+  </include>
+?>
 
 <?ignore
   <include file="/mnt/working/2022_Flatty_Ros_Robot/launch/rtabmap.launch">
