@@ -25,9 +25,6 @@
   <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen">
   </node>
 
-  <node name="turret_control_node" pkg="turret_control_node" type="turret_control_node" clear_params="true" output="screen">
-  </node>
-
   <node name="field_element_publisher_node" pkg="field_element_publisher_node" type="field_element_publisher_node" clear_params="true" output="screen">
   </node>
 
