@@ -19,9 +19,11 @@ brake_mode_default: false
 gear_ratio_motor_to_output_shaft: 1
 wheel_diameter_inches: 4
 robot_track_width_inches: 15
+robot_track_length_inches: 15
 robot_linear_inertia: 68  #Linear inertia = Weight in kg
 robot_angular_inertia: 125  #kg m^2
 robot_angular_drag: 0.1  #N*m / (rad/sec)
+robot_scrub_factor: 1.0  #
 
 drive_Ks_v_intercept: 1  #volts
 drive_Kv: 0.002105  #V per rpm
@@ -33,12 +35,19 @@ velocity_kD: 0.0
 velocity_kF: 0.0
 velocity_iZone: 0.0
 velocity_maxIAccum: 0.0
+closed_loop_ramp: 0.0
 motion_cruise_velocity: 0.0
 motion_accel: 0.0
 motion_s_curve_strength: 0
 
+open_loop_ramp: 0
 supply_current_limit: 40
 supply_current_limit_threshold: 0
 supply_current_limit_threshold_exceeded_time: 0
 
+joystick_input_ramp_accel: 0
+joystick_input_ramp_decel: 0
+joystick_input_ramp_zero_val: 0
+joystick_input_ramp_max_val: 0
 
+drive_control_mode: 0

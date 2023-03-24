@@ -1,32 +1,32 @@
 gear_ratio_to_output_shaft: [
-  # Motor 1
-  10.0,
-  # Motor 2
+  # Motor 1 Drive 8.14
+  6.12244188,
+  # Motor 2 Drive
+  6.12244188,
+  # Motor 3 Drive
+  6.12244188,
+  # Motor 4 Drive
+  6.12244188,
+  # Motor 5 Steering 50/14 * 60/10
+  1.0, #21.4285714286,
+  # Motor 6 Steering
+  1.0, #21.4285714286,
+  # Motor 7 Steering
+  1.0, #21.4285714286,
+  # Motor 8 Steering
+  1.0, #21.4285714286,
+  # Motor 9 Lower Arm Master
+  19.333333333,
+  # Motor 10 Lower Arm Slave
+  19.333333333,
+  # Motor 11 Upper Arm Master
   1.0,
-  # Motor 3
+  # Motor 12 Upper Arm Slave
   1.0,
-  # Motor 4
-  10.0,
-  # Motor 5
-  1.0,
-  # Motor 6
-  1.0,
-  # Motor 7
-  1.0,
-  # Motor 8
-  1.0,
-  # Motor 9
-  1.0,
-  # Motor 10
-  1.0,
-  # Motor 11
-  1.0,
-  # Motor 12
-  1.0,
-  # Motor 13
-  1.0,
+  # Motor 13 Wrist
+  100,
   # Motor 14
-  1.0,
+  6.25,
   # Motor 15
   1.0,
   # Motor 16
@@ -51,19 +51,19 @@ motor_ticks_per_revolution: [
   # Motor 4
   2048.0,
   # Motor 5
-  2048.0,
+  4096.0,
   # Motor 6
-  2048.0,
+  4096.0,
   # Motor 7
-  2048.0,
+  4096.0,
   # Motor 8
-  2048.0,
+  4096.0,
   # Motor 9
-  2048.0,
+  4096.0,
   # Motor 10
   2048.0,
   # Motor 11
-  2048.0,
+  4096.0,
   # Motor 12
   2048.0,
   # Motor 13
